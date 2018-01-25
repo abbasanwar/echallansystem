@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "467461922551",
+    "firebase_url": "https://echallansystem-8973c.firebaseio.com",
+    "project_id": "echallansystem-8973c",
+    "storage_bucket": "echallansystem-8973c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467461922551:android:17cf42b7c4a7b1b9",
+        "android_client_info": {
+          "package_name": "com.echallansystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467461922551-36bam3t7h63rn07hjb5at6vfo7ejo3tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDjhljVt6VXULimTZojBYajUlYJI-6wxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

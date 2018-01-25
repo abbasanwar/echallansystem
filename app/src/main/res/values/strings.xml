@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">E Challan</string>
+    <!--Violation type/offence  -->
+    <array name="violationtype">
+        <item>Improper Loading</item>
+        <item>Use wrong Indicates</item>
+        <item>Ride a bike without helment</item>
+        <item>parking on foothpath</item>
+    </array>
+
+    <array name="feedbacktype">
+        <item>Article Lost and Found</item>
+        <item>Electrical Problem</item>
+        <item>Engine oil Finished</item>
+        <item>Engine Problem</item>
+        <item>Forgot Way</item>
+        <item>Fuel Ended</item>
+        <item>Heat Up</item>
+        <item>Light Problem</item>
+        <item>Mechanical Fault</item>
+        <item>Oil/Fuel Filter Problem</item>
+        <item>Other Misc</item>
+        <item>Starting Problem</item>
+        <item>Tyre Burst</item>
+        <item>Tyre Puncture</item>
+        <item>Wheel Problem</item>
+
+
+    </array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!--About Us -->
+
+
+    <string name="AboutTrafficPolice">Traffic Police is one of the five police jurisdictions in the capital city and is responsible for managing and controlling traffic matters of a huge area of 1257 square kilometers. The Traffic force, established in 1971, comprising of 500 police officers and personnel, controls the road traffic, which has lately become a major task for the police. Due to the increase in volume of road traffic, causing continuous traffic congestion in the cities especially in peak hours, the demands on the police to meet with the situation for smooth running of traffic has a corresponding increase.
+
+.</string>
+
+
+</resources>

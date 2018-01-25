@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.echallansystem">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddChallanActivity"
+            android:label="Add Challan" />
+        <activity
+            android:name=".AddLicenceActivity"
+            android:label="Add Licence" />
+        <activity
+            android:name=".AddVehicleActivity"
+            android:label="Add Vehicle" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:label="DashBoard" />
+        <activity
+            android:name=".MainChallanActivity"
+            android:label="Challan" />
+        <activity
+            android:name=".MainLicenceActivity"
+            android:label="Licence" />
+        <activity
+            android:name=".MainVehicleActivity"
+            android:label="Vehicle" />
+        <activity
+            android:name=".ShowViolatersActivity"
+            android:label="Show Violaters" />
+        <activity
+            android:name=".ShowLicenceActivity"
+            android:label="Show Licence" />
+        <activity
+            android:name=".ShowVehicleActivity"
+            android:label="Show Vehicle" />
+        <activity
+            android:name=".MainFeedbackActivity"
+            android:label="FeedBack" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity android:name=".Font" />
+        <activity android:name=".ShowVerifiedvehicle" />
+        <activity android:name=".CheckVehicle" />
+        <activity android:name=".CheckLicence"></activity>
+    </application>
+
+</manifest>

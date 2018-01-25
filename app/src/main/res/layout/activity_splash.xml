@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trafic"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/track_txt"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1.0"
+            android:text=""
+            android:textColor="#11d11a"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <com.echallansystem.Font
+            android:id="@+id/pro_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1.0"
+            android:text= "Welcome  To "
+            android:textColor="#f8f8fa"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="125dp"
+            android:layout_marginTop="-130dp"
+            android:layout_marginEnd="125dp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
